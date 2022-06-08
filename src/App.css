@@ -1,0 +1,83 @@
+*{
+margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.App {
+ width: 100vw;
+ height: 100vh;
+display:flex;
+  justify-content: center;
+  align-items:center;
+  background-image: url("https://cdn.hipwallpaper.com/i/49/16/LSeHyi.jpg");
+  object-fit: contain;
+  
+}
+.Calculator{
+ border: 1px solid;
+ max-width: 435px;
+ height: auto;
+ border-radius: 10px 10px 15px 15px;
+ background-color: rgb(25, 57, 84);
+ box-shadow: 5px 5px  #737475;
+ border: 1px solid #fff;
+}
+.display input{
+border-radius: 10px;
+}
+.display{
+ padding: 0px 10px 0px 0px;
+background-color:#1f0145;
+border: 0px 0px 0px 0.5px solid #fff;
+border-radius: 10px 10px 0px 0px;
+  width: 430px;
+  height: 70px;
+color:white;
+font-size: 40px;
+text-align:right;
+
+  
+}
+button {
+  appearance:none;
+  border: none;
+  outline: none;
+
+}
+.operations{
+ 
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 50px;
+  gap:3px;
+  padding:10px 3px 3px  3px;
+  
+}
+.operations button{
+  border: 3px solid rgb(0, 0, 0);
+ border-radius: 10px;
+ background-color: #3b3672;
+ cursor: pointer;
+ color:white;
+ font-size: 35px;
+}
+.digits{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: 50px 50px 50px 50px;
+/* padding: 3px 10px; */
+gap:1px;
+
+}
+.digits button{
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 35px;
+  border-radius: 5px;
+  background-color: #1c1c1f;
+  color:white;
+}
+.end button{
+border-radius: 10px;
+}
+
